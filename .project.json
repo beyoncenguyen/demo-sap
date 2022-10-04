@@ -1,0 +1,26 @@
+{
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=SUN_SAM_PRD&ClientId=e7e1567a-c87f-4228-bb8f-6e5ba24028d8&ServerUrl=https://sgr-prd-sam-prd-sun-sam-prd.cfapps.ap10.hana.ondemand.com&SapCloudPlatformEndpoint=https://sgr-prd-sam-prd-sun-sam-prd.cfapps.ap10.hana.ondemand.com&AuthorizationEndpointUrl=https://sgr-prd-sam-prd-sun-sam-prd.cfapps.ap10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://sgr-prd-sam-prd-sun-sam-prd.cfapps.ap10.hana.ondemand.com&TokenUrl=https://sgr-prd-sam-prd-sun-sam-prd.cfapps.ap10.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	},
+	"CF": {
+		"Target": "https://api.cf.ap10.hana.ondemand.com",
+		"Organization": "08b41664-ef71-4743-bbd9-1dc4fb07d1b1",
+		"Space": "6bba33d3-ec71-4ecb-b6ae-9fe4bdb1008f"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.ap10.hana.ondemand.com/cockpit/v1/org/08b41664-ef71-4743-bbd9-1dc4fb07d1b1/space/6bba33d3-ec71-4ecb-b6ae-9fe4bdb1008f",
+		"AppId": "SUN_SAM_PRD",
+		"Destination": [
+			"DEST_SAM2205_ONLINE_PPROP",
+			"DEST_SAM2205_PPROP"
+		]
+	},
+	"Build": {
+		"SourceMap": false,
+		"TSTarget": "es6",
+		"WMF": false
+	}
+}
